@@ -159,8 +159,8 @@ furture: true
 # Page default value
 defaults:
    home:
-     heading: "My awesome heading"
-     subheading: "My awesome subheading"
+     heading: "Funny Coding Stroy"
+     subheading: " - C++, Python"
 #     banner: "Your image url"
 
 # Banner default settings
