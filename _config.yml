@@ -157,10 +157,10 @@ furture: true
 #   - about.md
 
 # Page default value
-# defaults:
-#   home:
-#     heading: "Your awesome heading"
-#     subheading: "Your awesome subheading"
+defaults:
+   home:
+     heading: "My awesome heading"
+     subheading: "My awesome subheading"
 #     banner: "Your image url"
 
 # Banner default settings
