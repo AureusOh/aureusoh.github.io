@@ -7,3 +7,7 @@ meta: "Springfield"
 ---
 
 My first article...
+
+블로그의 첫번째 글입니다.
+
+한글 폰트부터 바꿔야겠네요. ㅎ
