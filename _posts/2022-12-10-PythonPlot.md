@@ -8,6 +8,8 @@ meta: "Springfield"
 
 {% include python_style_2.html %}
 
+
+
 <style type="text/css">
      .jp-Cell-inputWrapper {
           display: flex;
@@ -27,6 +29,7 @@ meta: "Springfield"
      }
 </style>
 
+testing 
 
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
