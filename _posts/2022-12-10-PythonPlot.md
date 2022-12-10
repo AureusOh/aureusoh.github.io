@@ -6,6 +6,7 @@ author: "aureusoh"
 meta: "Springfield"
 ---
 
+<head>
 <style type="text/css">
      .jp-Cell-inputWrapper {
           display: flex;
@@ -24,6 +25,7 @@ meta: "Springfield"
           flex-grow: 1;
      }
 </style>
+</head>
 
 testing 
 
