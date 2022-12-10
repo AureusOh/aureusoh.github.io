@@ -6,7 +6,27 @@ author: "aureusoh"
 meta: "Springfield"
 ---
 
-{% include python_style.html %}
+{% include python_style_2.html %}
+
+<style type="text/css">
+     .jp-Cell-inputWrapper {
+          display: flex;
+          flex-direction: row;
+          padding: 0px;
+          margin: 0px;
+          /* Added to reveal the box-shadow on the input and output collapsers. */
+          overflow: visible;
+     }
+
+     .jp-InputPrompt {
+          flex: 0 0 64px;
+     }
+
+     .CodeMirror {
+          flex-grow: 1;
+     }
+</style>
+
 
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
