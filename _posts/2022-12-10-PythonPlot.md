@@ -77,7 +77,7 @@ meta: "Springfield"
 </div>
 </div>
 
-6.
+7.
 
 <div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
