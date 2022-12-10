@@ -52,6 +52,16 @@
 
         <style type="text/css">
 
+            .jp-Cell-inputWrapper,
+            .jp-Cell-outputWrapper {
+                display: flex;
+                flex-direction: row;
+                padding: 0px;
+                margin: 0px;
+                /* Added to reveal the box-shadow on the input and output collapsers. */
+                overflow: visible;
+            }
+            
             .jp-InputPrompt {
                 flex: 0 0 var(--jp-cell-prompt-width);
                 color: var(--jp-cell-inprompt-font-color);
