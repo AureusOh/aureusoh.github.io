@@ -291,6 +291,40 @@
                 --jp-code-font-family-default: Menlo, Consolas, 'DejaVu Sans Mono', monospace;
                 --jp-code-font-family: var(--jp-code-font-family-default);
             }
+
+
+            div.inner_cell {
+                min-width: 0;
+                /* Old browsers */
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-box-align: stretch;
+                display: -moz-box;
+                -moz-box-orient: vertical;
+                -moz-box-align: stretch;
+                display: box;
+                box-orient: vertical;
+                box-align: stretch;
+                /* Modern browsers */
+                display: flex;
+                flex-direction: column;
+                align-items: stretch;
+                /* Old browsers */
+                -webkit-box-flex: 1;
+                -moz-box-flex: 1;
+                box-flex: 1;
+                /* Modern browsers */
+                flex: 1;
+              }
+
+
+            div.input_area {
+                border: 1px solid #cfcfcf;
+                border-radius: 2px;
+                background: #f7f7f7;
+                line-height: 1.21429em;
+              }
+
         </style>
 </head>
 </html>
