@@ -6,10 +6,6 @@ author: "aureusoh"
 meta: "Springfield"
 ---
 
-{% include python_style_2.html %}
-
-
-
 <style type="text/css">
      .jp-Cell-inputWrapper {
           display: flex;
