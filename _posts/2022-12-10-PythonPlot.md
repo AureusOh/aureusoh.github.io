@@ -20,27 +20,37 @@ meta: "Springfield"
 
      .jp-InputPrompt {
           flex: 0 0 64px;
+          color: var(--jp-cell-inprompt-font-color);
+          font-family: var(--jp-cell-prompt-font-family);
+          padding: var(--jp-code-padding);
+          letter-spacing: var(--jp-cell-prompt-letter-spacing);
+          opacity: var(--jp-cell-prompt-opacity);
+          line-height: var(--jp-code-line-height);
+          font-size: var(--jp-code-font-size);
+          border: var(--jp-border-width) solid transparent;
+          opacity: var(--jp-cell-prompt-opacity);
+          /* Right align prompt text, don't wrap to handle large prompt numbers */
+          text-align: right;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          /* Disable text selection */
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+          user-select: none;
      }
 
      .CodeMirror {
           flex-grow: 1;
+          font-family: monospace;
+          /*height: 300px;*/
+          color: black;
+          direction: ltr;
      }
 </style>
 
-testing -2
-
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[1]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">L</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">))</span>
-<span class="n">L</span>
-</pre></div>
-
-</div>
-</div>
-</div>
+testing -3
 
 1.
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span> 
