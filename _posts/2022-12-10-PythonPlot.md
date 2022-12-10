@@ -64,7 +64,6 @@ meta: "Springfield"
 </div>
 
 6.
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
@@ -75,7 +74,7 @@ meta: "Springfield"
 </div>
 </div>
 </div>
-</div>
+
 
 7.
 
