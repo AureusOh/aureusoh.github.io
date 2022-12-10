@@ -21,8 +21,13 @@ meta: "Springfield"
      .jp-InputPrompt {
           flex: 0 0 64px;
      }
+
+     .CodeMirror {
+          flex-grow: 1;
+     }
 </style>
 
+flex-grow
 
 1.
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span> 
