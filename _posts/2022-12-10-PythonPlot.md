@@ -6,7 +6,8 @@ author: "aureusoh"
 meta: "Springfield"
 ---
 
-<head>
+{% include python_style_2.html %}
+
 <style type="text/css">
      .jp-Cell-inputWrapper {
           display: flex;
@@ -25,9 +26,8 @@ meta: "Springfield"
           flex-grow: 1;
      }
 </style>
-</head>
 
-testing 
+testing -2
 
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
