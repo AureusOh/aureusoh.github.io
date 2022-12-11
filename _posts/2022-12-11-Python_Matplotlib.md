@@ -44,7 +44,7 @@ meta: "Springfield"
      .CodeMirror {
           flex-grow: 1;
           font-family: monospace;
-          /*height: 300px;*/
+          height: 300px;
           color: black;
           direction: ltr;
           border-width: 1px;
