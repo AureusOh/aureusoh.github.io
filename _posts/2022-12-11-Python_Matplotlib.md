@@ -143,6 +143,12 @@ meta: "Springfield"
      }
 </style>
 <style type="text/css">
+
+     pre {
+          margin: 0px;
+          padding: 0px;
+     }
+
      div.CodeMirror {
           margin: 0px;
           padding: 5px;
@@ -151,7 +157,7 @@ meta: "Springfield"
      }
 </style>
 
-7
+8
 
 
 # Python matplotlib
