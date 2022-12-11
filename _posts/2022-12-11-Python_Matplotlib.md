@@ -49,9 +49,9 @@ meta: "Springfield"
           direction: ltr;
           border-width: 1px;
           border-style: solid;
-          border-color: --jp-cell-editor-border-color;
+          border-color: var(--jp-cell-editor-border-color);
           padding: 3px;
-          background: --jp-cell-editor-background;
+          background-color: var(--jp-cell-editor-background);
      }
 </style>
 
