@@ -151,7 +151,7 @@ meta: "Springfield"
      }
 </style>
 
-6
+7
 
 
 # Python matplotlib
@@ -179,6 +179,11 @@ matplotlib를 이용하면 MATLAB과 유사하게 graph를 그릴 수 있습니�
 2-1. CodeMirror
 <div class="CodeMirror">
 This is test.
+</div>
+
+2-2. CodeMirror
+<div class="CodeMirror">
+<pre>This is test.</pre>
 </div>
 
 3.
