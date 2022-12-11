@@ -13,7 +13,7 @@ meta: "Springfield"
      td.linenos .special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
      span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
      .highlight .hll { background-color: var(--jp-cell-editor-active-background) }
-     .highlight { background: var(--jp-cell-editor-background); color: var(--jp-mirror-editor-variable-color); }
+     .highlight { background: var(--jp-cell-editor-background); color: var(--jp-mirror-editor-variable-color); border-color: green; }
      .highlight .c { color: var(--jp-mirror-editor-comment-color); font-style: italic } /* Comment */
      .highlight .err { color: var(--jp-mirror-editor-error-color) } /* Error */
      .highlight .k { color: var(--jp-mirror-editor-keyword-color); font-weight: bold } /* Keyword */
