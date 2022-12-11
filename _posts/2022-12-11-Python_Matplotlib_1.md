@@ -172,7 +172,7 @@ meta: "Springfield"
      }
 
 
-     .jp-InputPrompt {
+     .jp-InputPrompt, .jp-OutputPrompt {
           flex: 0 0 64px;
           color: var(--jp-cell-inprompt-font-color);
           font-family: var(--jp-cell-prompt-font-family);
@@ -200,7 +200,6 @@ meta: "Springfield"
      }
 
      .jp-CodeMirror {
-          flex-grow: 1;
           margin: 0px;
           padding: 5px;
           border: 1px solid var(--jp-cell-editor-border-color);
@@ -383,6 +382,7 @@ This is test.
 </div>
 
 7. CodeMirror
+
 <div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
