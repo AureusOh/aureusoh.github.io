@@ -179,7 +179,7 @@ meta: "Springfield"
           -webkit-user-select: none;
           -moz-user-select: none;
           -ms-user-select: none;
-          user-select: none;*/
+          user-select: none;
      }
 
      div.CodeMirror {
@@ -221,8 +221,7 @@ matplotlib를 이용하면 MATLAB과 유사하게 graph를 그릴 수 있습니�
 2.
 <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span> 
-<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-</pre></div>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span></pre></div>
 </div>
 
 3.
