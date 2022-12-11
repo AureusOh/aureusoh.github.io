@@ -378,7 +378,7 @@ This is test.
 </div>
 </div>
 
-7.
+7. CodeMirror
 <div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -425,9 +425,7 @@ This is test.
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[18]:</div>
-
-
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[18]:</div>
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
