@@ -48,6 +48,11 @@ meta: "Springfield"
           color: black;
           direction: ltr;
      }
+
+     .CodeMirror .cm-s-jupyter {
+          background: var(--jp-layout-color0);
+          color: var(--jp-content-font-color1);
+     }
 </style>
 
 # Python matplotlib
