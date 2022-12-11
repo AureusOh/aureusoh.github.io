@@ -109,6 +109,22 @@ matplotlib를 이용하면 MATLAB과 유사하게 graph를 그릴 수 있습니�
 </div>
 </div>
 
+4-2.
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
+<div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><span>It's</span> <span>real test.</span></div>
+</div>
+</div>
+
+4-3.
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
+<div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre>It's real test.</pre></div>
+</div>
+</div>
+
 5.
 <div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
