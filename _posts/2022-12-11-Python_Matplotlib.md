@@ -143,13 +143,15 @@ meta: "Springfield"
      }
 </style>
 <style type="text/css">
-     CodeMirror {
+     div.CodeMirror {
+          margin: 0px;
+          padding: 5px;
           border: 1px solid var(--jp-cell-editor-border-color);
           background: var(--jp-cell-editor-background);
      }
 </style>
 
-5
+6
 
 
 # Python matplotlib
@@ -163,12 +165,12 @@ matplotlib를 이용하면 MATLAB과 유사하게 graph를 그릴 수 있습니�
 
 ## 2. Graph
 
-1.
+1. highligh
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span> 
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 </pre></div>
 
-2.
+2. CodeMirror
 <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span> 
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span></pre></div>
