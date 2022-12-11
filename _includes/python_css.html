@@ -14525,6 +14525,8 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
   display: none;
 }
 
+
+
 @media print {
   .jp-Cell-inputWrapper,
   .jp-Cell-outputWrapper {
@@ -14533,6 +14535,12 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
   .jp-OutputArea-child {
     break-inside: avoid-page;
+  }
+}
+
+@media (max-width: 767px) {
+  .jp-Cell-inputWrapper {
+       flex-direction: column;
   }
 }
 </style>

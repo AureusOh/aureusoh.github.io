@@ -159,6 +159,28 @@ meta: "Springfield"
           }
      }
 
+     .jp-InputPrompt {
+          flex: 0 0 64px;
+          color: var(--jp-cell-inprompt-font-color);
+          font-family: var(--jp-cell-prompt-font-family);
+          padding: var(--jp-code-padding);
+          letter-spacing: var(--jp-cell-prompt-letter-spacing);
+          opacity: var(--jp-cell-prompt-opacity);
+          line-height: var(--jp-code-line-height);
+          font-size: var(--jp-code-font-size);
+          border: var(--jp-border-width) solid transparent;
+          opacity: var(--jp-cell-prompt-opacity);
+          /* Right align prompt text, don't wrap to handle large prompt numbers */
+          text-align: right;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          /* Disable text selection */
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+          user-select: none;*/
+     }
 
      div.CodeMirror {
           flex-grow: 1;
