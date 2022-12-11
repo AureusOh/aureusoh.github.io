@@ -105,7 +105,7 @@ matplotlib를 이용하면 MATLAB과 유사하게 graph를 그릴 수 있습니�
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
 <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3">It's test.</div>
+<div class=" highlight hl-ipython3"><pre><span>It's</span> <span>test.</span></pre></div>
 </div>
 </div>
 
