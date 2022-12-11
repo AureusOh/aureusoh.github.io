@@ -50,11 +50,13 @@ meta: "Springfield"
      }
 
      .CodeMirror, .cm-s-jupyter {
-          background: var(--jp-layout-color0);
+          background: green;/*var(--jp-layout-color1);*/
           color: var(--jp-content-font-color1);
      }
 </style>
+
 2
+
 # Python matplotlib
 
 ## 1. 개요
