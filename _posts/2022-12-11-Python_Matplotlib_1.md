@@ -195,7 +195,7 @@ meta: "Springfield"
           user-select: none;
      }
 
-     .jp-CodeMirror {
+     div.jp-CodeMirror {
           flex-grow: 1;
           margin: 0px;
           padding: 5px;
