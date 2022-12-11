@@ -12,11 +12,11 @@ meta: "Springfield"
           margin: 0px;
           padding: 5px;
           border: 1px solid var(--jp-cell-editor-border-color);
-          background: #f5f5f5;
+          background: #eeeeee;
      }
 </style>
 
-15
+16
 
 
 # Python matplotlib
