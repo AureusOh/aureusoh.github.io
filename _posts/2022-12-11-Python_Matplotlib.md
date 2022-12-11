@@ -144,7 +144,7 @@ meta: "Springfield"
 </style>
 <style type="text/css">
 
-     .jp-Cell-inputWrapper {
+     .jp-Cell-inputWrapper, .jp-Cell-outputWrapper {
           display: flex;
           flex-direction: row;
           padding: 0px;
@@ -194,7 +194,7 @@ meta: "Springfield"
      }
 </style>
 
-1
+2
 
 
 # Python matplotlib
@@ -312,12 +312,10 @@ matplotlib를 이용하면 MATLAB과 유사하게 graph를 그릴 수 있습니�
 
 </div>
 
-
+8.
 
 <div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
 <div class="jp-InputArea jp-Cell-inputArea">
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[18]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
