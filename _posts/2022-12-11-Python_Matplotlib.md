@@ -47,16 +47,13 @@ meta: "Springfield"
           /*height: 300px;*/
           color: black;
           direction: ltr;
-          background: green;
-     }
-
-     .CodeMirror, .cm-s-jupyter {
-          background: green;/*var(--jp-layout-color1);*/
-          color: var(--jp-content-font-color1);
+          border-width: 1px;
+          border-style: solid;
+          border-color: black;
      }
 </style>
 
-3
+2
 
 # Python matplotlib
 
