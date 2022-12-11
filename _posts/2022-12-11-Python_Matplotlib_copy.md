@@ -6,10 +6,6 @@ author: "aureusoh"
 meta: "Springfield"
 ---
 
-<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<link rel="stylesheet" type="text/css" href="/theme/css/icons.css"/>
 <style>.highlight .hll { background-color: #ffffcc }
 .highlight .c { color: #60a0b0; font-style: italic } /* Comment */
 .highlight .err { border: 1px solid #FF0000 } /* Error */
@@ -70,8 +66,10 @@ meta: "Springfield"
 .highlight .vc { color: #bb60d5 } /* Name.Variable.Class */
 .highlight .vg { color: #bb60d5 } /* Name.Variable.Global */
 .highlight .vi { color: #bb60d5 } /* Name.Variable.Instance */
-.highlight .il { color: #40a070 } /* Literal.Number.Integer.Long */</style>
-        <style>body {
+.highlight .il { color: #40a070 } /* Literal.Number.Integer.Long */
+</style>
+<style>
+body {
   margin: 0;
   padding: 0;
   font: 15px 'Source Sans Pro', sans-serif;
@@ -370,76 +368,10 @@ article .meta a.comments_btn:hover {
 .col-lg-12 {
   padding-right: 0px;
   padding-left: 0px;
-}</style>
+}
+</style>
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-        <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML" type="text/javascript"></script>
-        <script type="text/javascript">
-        init_mathjax = function() {
-            if (window.MathJax) {
-                // MathJax loaded
-                MathJax.Hub.Config({
-                    tex2jax: {
-                        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-                        displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
-                    },
-                    displayAlign: 'left', // Change this to 'center' to center equations.
-                    "HTML-CSS": {
-                        styles: {'.MathJax_Display': {"margin": 0}}
-                    }
-                });
-                MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
-            }
-        }
-        init_mathjax();
-        </script>
-
-    </head>
-
-    <body>
-        <header class="navbar navbar-inverse bs-docs-nav">
-            <div class="container-fluid">
-                <div class="navbar-header">
-		  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#theNavbar">
-		    <span class="icon-bar"></span>
-		    <span class="icon-bar"></span>
-		    <span class="icon-bar"></span> 
-		  </button>
-                  <a class="navbar-brand" href="/PythonDataScienceHandbook/" title="Home" class="title">Python Data Science Handbook</a>
-                </div>
-                <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation" id="theNavbar">
-		    <ul class="nav navbar-nav navbar-right">
-                            <li><a href="/pages/about.html" title="About">About</a></li>
-                            <li><a href="/archives.html" title="Archive">Archive</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-
-        <div id="wrap">
-
-<div class="container bookinfo">
-<p>
-<img align="left" style="padding-right:10px;" src="/PythonDataScienceHandbook/figures/PDSH-cover-small.png">
-<em>This is an excerpt from the <a href="http://shop.oreilly.com/product/0636920034919.do">Python Data Science Handbook</a> by Jake VanderPlas; Jupyter notebooks are available <a href="https://github.com/jakevdp/PythonDataScienceHandbook">on GitHub</a>.</em>
-</p>
-<p>
-<em>The text is released under the <a href="https://creativecommons.org/licenses/by-nc-nd/3.0/us/legalcode">CC-BY-NC-ND license</a>, and code is released under the <a href="https://opensource.org/licenses/MIT">MIT license</a>. If you find this content useful, please consider supporting the work by <a href="http://shop.oreilly.com/product/0636920034919.do">buying the book</a>!</em>
-</p>
-</div>
-
-
-<div class="container post">
-
-    <article>
-        <header>
-            <h1>Visualization with Matplotlib</h1>
-        </header>
-
-        <div class="article_content">
-            <style type="text/css">/*!
+<style type="text/css">/*!
 *
 * IPython notebook
 *
