@@ -47,6 +47,7 @@ meta: "Springfield"
           /*height: 300px;*/
           color: black;
           direction: ltr;
+          background: green;
      }
 
      .CodeMirror, .cm-s-jupyter {
@@ -55,7 +56,7 @@ meta: "Springfield"
      }
 </style>
 
-2
+3
 
 # Python matplotlib
 
