@@ -143,10 +143,13 @@ meta: "Springfield"
      }
 </style>
 <style type="text/css">
-
+     CodeMirror {
+          border: 1px solid var(--jp-cell-editor-border-color);
+          background: var(--jp-cell-editor-background);
+     }
 </style>
 
-4
+5
 
 
 # Python matplotlib
