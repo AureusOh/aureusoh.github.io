@@ -50,7 +50,6 @@ meta: "Springfield"
           border-style: solid;
           border-color: var(--jp-cell-editor-border-color);
           padding: 3px;
-          background-color: var(--jp-cell-editor-background);
      }
 </style>
 
