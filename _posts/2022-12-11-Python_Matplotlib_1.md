@@ -197,6 +197,10 @@ meta: "Springfield"
 
      .jp-CodeMirrorEditor {
           flex-grow: 1;
+          margin: 0px;
+          padding: 5px;
+          border: 1px solid var(--jp-cell-editor-border-color);
+          background: var(--jp-cell-editor-background);
      }
 
      .jp-CodeMirror {
