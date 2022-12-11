@@ -9,52 +9,56 @@ meta: "Springfield"
 {% include python_style_2.html %}
 
 <style type="text/css">
-     .jp-Cell-inputWrapper {
-          display: flex;
-          flex-direction: row;
-          padding: 0px;
-          margin: 0px;
-          /* Added to reveal the box-shadow on the input and output collapsers. */
-          overflow: visible;
-     }
+            .jp-Cell-inputWrapper {
+                display: flex;
+                flex-direction: row;
+                padding: 0px;
+                margin: 0px;
+                /* Added to reveal the box-shadow on the input and output collapsers. */
+                overflow: visible;
+           }
+      
+           .jp-InputPrompt {
+                flex: 0 0 64px;
+                color: var(--jp-cell-inprompt-font-color);
+                font-family: var(--jp-cell-prompt-font-family);
+                padding: var(--jp-code-padding);
+                letter-spacing: var(--jp-cell-prompt-letter-spacing);
+                opacity: var(--jp-cell-prompt-opacity);
+                line-height: var(--jp-code-line-height);
+                font-size: var(--jp-code-font-size);
+                border: var(--jp-border-width) solid transparent;
+                opacity: var(--jp-cell-prompt-opacity);
+                /* Right align prompt text, don't wrap to handle large prompt numbers */
+                text-align: right;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                /* Disable text selection */
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+           }
 
-     .jp-InputPrompt {
-          flex: 0 0 64px;
-          color: var(--jp-cell-inprompt-font-color);
-          font-family: var(--jp-cell-prompt-font-family);
-          padding: var(--jp-code-padding);
-          letter-spacing: var(--jp-cell-prompt-letter-spacing);
-          opacity: var(--jp-cell-prompt-opacity);
-          line-height: var(--jp-code-line-height);
-          font-size: var(--jp-code-font-size);
-          border: var(--jp-border-width) solid transparent;
-          opacity: var(--jp-cell-prompt-opacity);
-          /* Right align prompt text, don't wrap to handle large prompt numbers */
-          text-align: right;
-          white-space: nowrap;
-          overflow: hidden;
-          text-overflow: ellipsis;
-          /* Disable text selection */
-          -webkit-user-select: none;
-          -moz-user-select: none;
-          -ms-user-select: none;
-          user-select: none;
-     }
+            .CodeMirror {
+                flex-grow: 1;
+                margin: 0px;
+                padding: 5px;
+                border: 1px solid var(--jp-cell-editor-border-color);
+                background: var(--jp-cell-editor-background);
+            }
 
-     .CodeMirror {
-          flex-grow: 1;
-          font-family: monospace;
-          color: black;
-          direction: ltr;
-          border-width: 1px;
-          border-style: solid;
-          border-color: var(--jp-cell-editor-border-color);
-          padding: 3px;
-          background: #f7f7f7;
-     }
+            .CodeMirror pre {
+                /* In CM3 this went to 4px from 0 in CM2. We need the 0 value because of how we size */
+                /* .CodeMirror-lines */
+                padding: 0;
+                border: 0;
+                border-radius: 0;
+            }
 </style>
 
-7
+8
 
 
 # Python matplotlib
