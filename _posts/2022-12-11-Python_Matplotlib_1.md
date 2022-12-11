@@ -207,7 +207,6 @@ matplotlib를 이용하면 MATLAB과 유사하게 graph를 그릴 수 있습니�
 
 ## 2. 그래프 그리기
 
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -222,8 +221,25 @@ matplotlib를 이용하면 MATLAB과 유사하게 graph를 그릴 수 있습니�
 </div>
 </div>
 </div>
-</div>
 
 `matplotlib.pyplot`과 `numpy`를 임포트해줍니다. 일반적으로 `plt`과 `np`이름을 사용합니다.
+
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span> <span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span>
+ <span class="n">y</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+
+sine 함수를 그려보도록 하겠습니다. x값과 y값을 만들어줍니다.
+
 
 ## 3. 그래프 서식
