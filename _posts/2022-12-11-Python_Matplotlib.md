@@ -189,17 +189,9 @@ meta: "Springfield"
           border: 1px solid var(--jp-cell-editor-border-color);
           background: var(--jp-cell-editor-background);
      }
-
-     .CodeMirror pre {
-          /* In CM3 this went to 4px from 0 in CM2. We need the 0 value because of how we size */
-          /* .CodeMirror-lines */
-          padding: 0;
-          border: 0;
-          border-radius: 0;
-     }
 </style>
 
-2
+3
 
 
 # Python matplotlib
