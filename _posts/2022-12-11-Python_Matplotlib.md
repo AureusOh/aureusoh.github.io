@@ -194,7 +194,7 @@ meta: "Springfield"
      }
 </style>
 
-10
+1
 
 
 # Python matplotlib
@@ -277,9 +277,12 @@ matplotlib를 이용하면 MATLAB과 유사하게 graph를 그릴 수 있습니�
 </div>
 </div>
 
+
 6.
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
 <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span> 
@@ -289,9 +292,7 @@ matplotlib를 이용하면 MATLAB과 유사하게 graph를 그릴 수 있습니�
 </div>
 </div>
 
-
 7.
-
 <div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
