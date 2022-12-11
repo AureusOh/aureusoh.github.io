@@ -181,7 +181,7 @@ meta: "Springfield"
           margin: 0px;
           padding: 5px;
           border: 1px solid var(--jp-cell-editor-border-color);
-          background: var(--jp-mirror-editor-variable-color);
+          background: var(--jp-cell-editor-background);
      }
 
      .CodeMirror pre {
@@ -193,7 +193,7 @@ meta: "Springfield"
      }
 </style>
 
-9
+10
 
 
 # Python matplotlib
