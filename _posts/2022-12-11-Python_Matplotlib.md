@@ -49,13 +49,14 @@ meta: "Springfield"
           direction: ltr;
           border-width: 1px;
           border-style: solid;
-          border-color: var(--jp-cell-editor-border-color);
+          border-color: #e0e0e0/*var(--jp-cell-editor-border-color)*/;
           padding: 3px;
-          background-color: var(--jp-cell-editor-background);
+          background-color: #f5f5f5/*var(--jp-cell-editor-background)*/;
      }
 </style>
 
-5
+6
+
 
 # Python matplotlib
 
