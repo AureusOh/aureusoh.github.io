@@ -149,15 +149,55 @@ meta: "Springfield"
           padding: 0px;
      }
 
+     .jp-Cell-inputWrapper, .jp-Cell-outputWrapper {
+          display: flex;
+          flex-direction: row;
+          padding: 0px;
+          margin: 0px;
+          /* Added to reveal the box-shadow on the input and output collapsers. */
+          overflow: visible;
+     }
+
+     @media (max-width: 767px) {
+          .jp-Cell-inputWrapper {
+               flex-direction: column;
+          }
+     }
+
+     .jp-InputPrompt {
+          flex: 0 0 64px;
+          color: var(--jp-cell-inprompt-font-color);
+          font-family: var(--jp-cell-prompt-font-family);
+          padding: var(--jp-code-padding);
+          letter-spacing: var(--jp-cell-prompt-letter-spacing);
+          opacity: var(--jp-cell-prompt-opacity);
+          line-height: var(--jp-code-line-height);
+          font-size: var(--jp-code-font-size);
+          border: var(--jp-border-width) solid transparent;
+          opacity: var(--jp-cell-prompt-opacity);
+          /* Right align prompt text, don't wrap to handle large prompt numbers */
+          text-align: right;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          /* Disable text selection */
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+          user-select: none;
+     }
+
      div.CodeMirror {
+          flex-grow: 1;
           margin: 0px;
           padding: 5px;
           border: 1px solid var(--jp-cell-editor-border-color);
           background: var(--jp-cell-editor-background);
      }
+
 </style>
 
-8
+10
 
 
 # Python matplotlib
