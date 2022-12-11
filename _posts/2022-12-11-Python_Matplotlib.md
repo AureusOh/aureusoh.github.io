@@ -176,6 +176,11 @@ matplotlib를 이용하면 MATLAB과 유사하게 graph를 그릴 수 있습니�
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span></pre></div>
 </div>
 
+2-1. CodeMirror
+<div class="CodeMirror">
+This is test.
+</div>
+
 3.
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
 <div class="CodeMirror cm-s-jupyter">
