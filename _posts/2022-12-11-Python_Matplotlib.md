@@ -44,18 +44,17 @@ meta: "Springfield"
      .CodeMirror {
           flex-grow: 1;
           font-family: monospace;
-          height: 300px;
           color: black;
           direction: ltr;
           border-width: 1px;
           border-style: solid;
-          border-color: #e0e0e0/*var(--jp-cell-editor-border-color)*/;
+          border-color: var(--jp-cell-editor-border-color);
           padding: 3px;
-          background-color: #f5f5f5/*var(--jp-cell-editor-background)*/;
+          background-color: var(--jp-cell-editor-background);
      }
 </style>
 
-6
+7
 
 
 # Python matplotlib
@@ -99,6 +98,14 @@ matplotlib를 이용하면 MATLAB과 유사하게 graph를 그릴 수 있습니�
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span></pre></div>
+</div>
+</div>
+
+4-1.
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
+<div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3">It's test.</div>
 </div>
 </div>
 
