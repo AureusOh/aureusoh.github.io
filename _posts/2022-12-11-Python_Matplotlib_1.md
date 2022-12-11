@@ -195,15 +195,8 @@ meta: "Springfield"
           user-select: none;
      }
 
-     .jp-CodeMirrorEditor {
-          flex-grow: 1;
-          margin: 0px;
-          padding: 5px;
-          border: 1px solid var(--jp-cell-editor-border-color);
-          background: var(--jp-cell-editor-background);
-     }
-
      .jp-CodeMirror {
+          flex-grow: 1;
           margin: 0px;
           padding: 5px;
           border: 1px solid var(--jp-cell-editor-border-color);
@@ -227,12 +220,10 @@ matplotlib를 이용하면 MATLAB과 유사하게 graph를 그릴 수 있습니�
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[1]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span> 
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 </pre></div>
-</div>
 </div>
 </div>
 </div>
@@ -244,12 +235,10 @@ matplotlib를 이용하면 MATLAB과 유사하게 graph를 그릴 수 있습니�
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span> <span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span>
  <span class="n">y</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
 </pre></div>
-</div>
 </div>
 </div>
 </div>
@@ -262,11 +251,9 @@ sine 함수를 그려보도록 하겠습니다. x값과 y값을 만들어줍니�
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
+<div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
 </pre></div>
-</div>
 </div>
 </div>
 </div>
