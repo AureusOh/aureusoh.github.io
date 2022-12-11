@@ -13,7 +13,7 @@ meta: "Springfield"
      td.linenos .special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
      span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
      .highlight .hll { background-color: var(--jp-cell-editor-active-background) }
-     .highlight { background-color: transparent; }
+     .highlight { background-color: #f5f5f5; }
      .highlight .c { color: var(--jp-mirror-editor-comment-color); font-style: italic } /* Comment */
      .highlight .err { color: var(--jp-mirror-editor-error-color) } /* Error */
      .highlight .k { color: var(--jp-mirror-editor-keyword-color); font-weight: bold } /* Keyword */
@@ -129,17 +129,6 @@ meta: "Springfield"
           --jp-code-padding: 5px; /* 5px for 13px base, codemirror highlighting needs integer px value */
           --jp-code-font-family-default: Menlo, Consolas, 'DejaVu Sans Mono', monospace;
           --jp-code-font-family: var(--jp-code-font-family-default);
-
-          --md-grey-50: #fafafa;
-          --md-grey-100: #f5f5f5;
-          --md-grey-200: #eeeeee;
-          --md-grey-300: #e0e0e0;
-          --md-grey-400: #bdbdbd;
-          --md-grey-500: #9e9e9e;
-          --md-grey-600: #757575;
-          --md-grey-700: #616161;
-          --md-grey-800: #424242;
-          --md-grey-900: #212121;
      }
 </style>
 <style type="text/css">
@@ -181,19 +170,11 @@ meta: "Springfield"
           margin: 0px;
           padding: 5px;
           border: 1px solid var(--jp-cell-editor-border-color);
-          background: var(--jp-cell-editor-background);
-     }
-
-     .CodeMirror pre {
-          /* In CM3 this went to 4px from 0 in CM2. We need the 0 value because of how we size */
-          /* .CodeMirror-lines */
-          padding: 0;
-          border: 0;
-          border-radius: 0;
+          background: #f5f5f5;
      }
 </style>
 
-12
+14
 
 
 # Python matplotlib
