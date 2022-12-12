@@ -51,6 +51,12 @@ meta: "Springfield"
           user-select: none;
      }
 
+     @media (max-width: 767px) {
+          .jp-InputPrompt {
+               flex: auto;
+               text-align: left;
+          }
+     }
      .CodeMirror {
           flex-grow: 1;
           margin: 0px;
