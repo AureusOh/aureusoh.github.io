@@ -185,7 +185,7 @@ meta: "Springfield"
      }
 
      @media (max-width: 767px) {
-          .jp-InputPrompt {
+          .jp-InputPrompt, .jp-OutputPrompt{
                flex: auto;
                text-align: left;
           }
