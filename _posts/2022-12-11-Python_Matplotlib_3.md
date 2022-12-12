@@ -90,6 +90,18 @@ matplotlib를 이용하면 MATLAB과 유사하게 graph를 그릴 수 있습니�
 import numpy as py
 ```
 
+2.
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
+<div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3">
+```
+import numpy as py
+```
+</div>
+</div>
+</div>
+
 6.
 <div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
