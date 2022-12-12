@@ -180,6 +180,10 @@ meta: "Springfield"
           user-select: none;
      }
 
+     .jp-OutputPrompt {
+          color: var(--jp-cell-outprompt-font-color);
+     }
+
      @media (max-width: 767px) {
           .jp-InputPrompt {
                flex: auto;
