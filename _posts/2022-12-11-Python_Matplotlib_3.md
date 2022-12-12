@@ -149,27 +149,18 @@ meta: "Springfield"
           background-color: transparent;
      }
 
-     .jp-Cell-inputWrapper {
+     .jp-InputArea, .jp-OutputArea-child {
           display: flex;
           flex-direction: row;
           padding: 0px;
           margin: 0px;
-          /* Added to reveal the box-shadow on the input and output collapsers. */
           overflow: visible;
      }
 
      @media (max-width: 767px) {
-          .jp-Cell-inputWrapper {
+          .jp-InputArea, .jp-OutputArea-child {
                flex-direction: column;
           }
-     }
-
-     .jp-OutputArea-child {
-          display: flex;
-          flex-direction: row;
-          padding: 0px;
-          margin: 0px;
-          overflow: visible;
      }
 
      .jp-InputPrompt, .jp-OutputPrompt {
@@ -207,8 +198,6 @@ meta: "Springfield"
           flex-grow: 1;
           margin: 0px;
           padding: var(--jp-code-padding);
-          border: 1px solid var(--jp-cell-editor-border-color);
-          background: var(--jp-cell-editor-background);
      }
 
 </style>
@@ -274,37 +263,28 @@ matplotlib를 이용하면 MATLAB과 유사하게 graph를 그릴 수 있습니�
 
 8.
 
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[18]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
+<div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">cos</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
 </pre></div>
+</div>
+</div>
+</div>
 
-     </div>
-</div>
-</div>
-</div>
 
 <div class="jp-Cell-outputWrapper">
 <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
 </div>
-
-
 <div class="jp-OutputArea jp-Cell-outputArea">
-
 <div class="jp-OutputArea-child">
-
-    
 <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[18]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
 <pre>[&lt;matplotlib.lines.Line2D at 0x7ff629af5100&gt;]</pre>
 </div>
 </div>
-
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedImage jp-OutputArea-output ">

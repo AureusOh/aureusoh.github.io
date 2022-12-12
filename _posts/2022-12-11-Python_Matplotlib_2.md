@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Python - matplotlib"
+title: "Python - matplotlib_2"
 categories: python
 author: "aureusoh"
 meta: "Springfield"
