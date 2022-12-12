@@ -167,7 +167,7 @@ meta: "Springfield"
           flex: 0 0 64px;
           color: var(--jp-cell-inprompt-font-color);
           font-family: var(--jp-cell-prompt-font-family);
-          padding: var(--jp-code-padding);
+          padding: 0px var(--jp-code-padding);
           font-size: var(--jp-code-font-size);
           border: var(--jp-border-width) solid transparent;
           text-align: right;
