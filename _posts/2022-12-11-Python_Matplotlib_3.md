@@ -223,6 +223,10 @@ matplotlib를 이용하면 MATLAB과 유사하게 graph를 그릴 수 있습니�
 
 matplotlib에서 사용하는 기본 자료형은 numpy를 이용합니다. 아직 numpy가 익숙하지 않으신 분들은 먼저 numpy를 보시기를 바랍니다.
 
+### 2. 간단한 그래프 그려보기
+
+`matplotlib`와 `numpy`를 임포트해줍니다.
+
 <!-- import -->
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
@@ -235,6 +239,7 @@ matplotlib에서 사용하는 기본 자료형은 numpy를 이용합니다. 아�
 </div>
 </div>
 
+사인 함수를 그려보도록 하겠습니다. 우선은 x값과 y값을 생성해줍니다.
 
 <!-- x, y values -->
 <div class="jp-Cell-inputWrapper">
@@ -247,6 +252,8 @@ matplotlib에서 사용하는 기본 자료형은 numpy를 이용합니다. 아�
 </div>
 </div>
 </div>
+
+`plot` 함수를 이용하여 간단하게 그려줄 수 있습니다.
 
 <!-- plot -->
 <div class="jp-Cell-inputWrapper">
@@ -278,8 +285,12 @@ matplotlib에서 사용하는 기본 자료형은 numpy를 이용합니다. 아�
 </div>
 </div>
 
+그래프도 참 깔끔하지요?
 
-<!--  -->
+이번에는 사인 함수와 코사인 함수를 동시에 그려보도록 하겠습니다. 앞에서는 y를 생성해줬는데, 바로 `plot`함수에 넣어 주어도 됩니다.
+
+
+<!-- sine and cosine -->
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
@@ -297,7 +308,7 @@ matplotlib에서 사용하는 기본 자료형은 numpy를 이용합니다. 아�
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[18]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[4]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
 <pre>[&lt;matplotlib.lines.Line2D at 0x7ff629af5100&gt;]</pre>
 </div>
