@@ -149,6 +149,10 @@ meta: "Springfield"
           background-color: transparent;
      }
 
+     img {
+          float: left;
+     }
+
      .jp-InputArea, .jp-OutputArea-child {
           display: flex;
           flex-direction: row;
