@@ -243,7 +243,6 @@ matplotlib에서 사용하는 기본 자료형은 numpy를 이용합니다. 아�
 </div>
 <br>
 사인 함수를 그려보도록 하겠습니다. 우선은 x값과 y값을 생성해줍니다.
-
 <!-- x, y values -->
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
@@ -257,7 +256,6 @@ matplotlib에서 사용하는 기본 자료형은 numpy를 이용합니다. 아�
 </div>
 <br><br>
 `plot` 함수를 이용하여 간단하게 그려줄 수 있습니다.
-
 <!-- plot -->
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
