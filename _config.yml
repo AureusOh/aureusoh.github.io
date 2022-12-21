@@ -69,7 +69,7 @@ furture: true
 # content_width: "920px"
 
 # Google analytics
-# google_analytics: [Tracking ID]
+google_analytics: G-NWL271XCLW
 
 # If you want to generate website sitemap, you can set true
 # sitemap: false
@@ -210,11 +210,3 @@ plugins:
   - jekyll-paginate
   - jekyll-spaceship
 
-
-# Analytics
-analytics:
-  provider               : "google-gtag" 
-                          # false (default), "google", "google-universal", "google-gtag", "custom"
-  google:
-    tracking_id          : "G-NWL271XCLW"
-    anonymize_ip         : # true, false (default)
