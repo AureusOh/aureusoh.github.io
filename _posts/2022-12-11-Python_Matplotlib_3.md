@@ -160,6 +160,7 @@ meta: "Springfield"
           margin: 0px;
           overflow: visible;
           padding: var(--jp-code-padding);
+          border: 1px solid var(--jp-cell-editor-border-color);
      }
 
      @media (max-width: 767px) {
