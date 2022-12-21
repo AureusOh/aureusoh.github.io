@@ -74,7 +74,10 @@ matplotlib에서 사용하는 기본 자료형은 numpy를 이용합니다. 아�
 </div>
 <br>
 그래프 참 깔끔하지 않나요?
-<br>
+
+
+
+
 이번에는 하나의 그래프에 사인 함수와 코사인 함수를 동시에 그려보도록 하겠습니다. 앞에서는 y를 생성해줬는데, 바로 `plot`함수에 넣어 주어도 됩니다.
 <!-- sine and cosine -->
 <div class="jp-Cell-inputWrapper">
