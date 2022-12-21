@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Python - matplotlib_3"
+title: "Python - matplotlib로 그래프 그리기"
 categories: python
 author: "aureusoh"
 meta: "Springfield"
@@ -160,7 +160,6 @@ meta: "Springfield"
           margin: 0px;
           overflow: visible;
           padding: var(--jp-code-padding);
-          border: 1px solid var(--jp-cell-editor-border-color);
      }
 
      @media (max-width: 767px) {
@@ -175,8 +174,7 @@ meta: "Springfield"
           font-family: var(--jp-cell-prompt-font-family);
           padding: 0px var(--jp-code-padding);
           font-size: var(--jp-code-font-size);
-          /*border: var(--jp-border-width) solid transparent;*/
-          border: 1px solid var(--jp-cell-editor-border-color);
+          border: var(--jp-border-width) solid transparent;
           text-align: right;
           white-space: nowrap;
           overflow: hidden;
@@ -216,21 +214,17 @@ meta: "Springfield"
 
 
 ## Python matplotlib
-
 ### 1. 개요
 
 MATLAB은 simulink도 압도적인 역할을 하지만, graph 기능 또한 탁월합니다. 마치 Photoshop을 그림 배경 지우는 용도로만 사용하시는 분들이 있듯이, MATLAB을 graph 그리는 분들도 더러있습니다. 그러나, 단순히 graph를 그리는 용도로만 MATLAB을 쓰기에는 너무나도 비쌉니다.
-
-
-
+<br>
 matplotlib를 이용하면 MATLAB과 유사하게 graph를 그릴 수 있습니다. Excel의 graph로는 부족하신분들, 데이터 분석하시는분들에게 필수적인 라이브러리입니다.
-
+<br>
 matplotlib에서 사용하는 기본 자료형은 numpy를 이용합니다. 아직 numpy가 익숙하지 않으신 분들은 먼저 numpy를 보시기를 바랍니다.
 
 ### 2. 간단한 그래프 그려보기
 
 `matplotlib`와 `numpy`를 임포트해줍니다.
-
 <!-- import -->
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
@@ -243,7 +237,7 @@ matplotlib에서 사용하는 기본 자료형은 numpy를 이용합니다. 아�
 </div>
 </div>
 <br>
-사인 함수를 그려보도록 하겠습니다. 우선은 x값과 y값을 생성해줍니다.
+간단하게 사인 함수를 그려보도록 하겠습니다. 일정 간격을 가진 x값을 생성해주고, y값으로 sin함수를 이용하여 계산해줍니다.
 <!-- x, y values -->
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
@@ -255,8 +249,8 @@ matplotlib에서 사용하는 기본 자료형은 numpy를 이용합니다. 아�
 </div>
 </div>
 </div>
-<br><br>
-`plot` 함수를 이용하여 간단하게 그려줄 수 있습니다.
+<br>
+이제 `plot` 함수를 이용하면, 간단하게 그려줄 수 있습니다.
 <!-- plot -->
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
@@ -267,7 +261,6 @@ matplotlib에서 사용하는 기본 자료형은 numpy를 이용합니다. 아�
 </div>
 </div>
 </div>
-
 <div class="jp-Cell-outputWrapper">
 <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
 </div>
@@ -286,12 +279,10 @@ matplotlib에서 사용하는 기본 자료형은 numpy를 이용합니다. 아�
 </div>
 </div>
 </div>
-
-그래프도 참 깔끔하지요?
-
-이번에는 사인 함수와 코사인 함수를 동시에 그려보도록 하겠습니다. 앞에서는 y를 생성해줬는데, 바로 `plot`함수에 넣어 주어도 됩니다.
-
-
+<br>
+그래프 참 깔끔하지 않나요?
+<br>
+이번에는 하나의 그래프에 사인 함수와 코사인 함수를 동시에 그려보도록 하겠습니다. 앞에서는 y를 생성해줬는데, 바로 `plot`함수에 넣어 주어도 됩니다.
 <!-- sine and cosine -->
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
@@ -303,8 +294,6 @@ matplotlib에서 사용하는 기본 자료형은 numpy를 이용합니다. 아�
 </div>
 </div>
 </div>
-
-
 <div class="jp-Cell-outputWrapper">
 <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
 </div>
@@ -323,3 +312,7 @@ matplotlib에서 사용하는 기본 자료형은 numpy를 이용합니다. 아�
 </div>
 </div>
 </div>
+<br>
+간단한게 그래프를 그려볼 수 있습니다.
+
+### 3. 그래프 꾸미기
