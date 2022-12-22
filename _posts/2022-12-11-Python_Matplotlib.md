@@ -9,17 +9,23 @@ meta: "Springfield"
 ## Python matplotlib
 ### 1. 개요
 
-MATLAB은 simulink도 압도적인 역할을 하지만, graph 기능 또한 탁월합니다. 마치 Photoshop을 그림 배경 지우는 용도로만 사용하시는 분들이 있듯이, MATLAB을 graph 그리는 분들도 더러있습니다. 그러나, 단순히 graph를 그리는 용도로만 MATLAB을 쓰기에는 너무나도 비쌉니다.
+MATLAB은 simulink도 압도적인 역할을 하지만, graph 기능 또한 탁월합니다. 마치 Photoshop을 그림 배경 지우는 용도로만 사용하시는 분들이 있듯이, MATLAB을 graph 그리는 용도로 쓰시는 분들도 있습니다. 그러나, 단순히 graph를 그리는 용도로만 MATLAB을 쓰기에는 너무나도 비싸지요.
 
 
-matplotlib를 이용하면 MATLAB과 유사하게 graph를 그릴 수 있습니다. Excel의 graph로는 부족하신분들, 데이터 분석하시는분들에게 필수적인 라이브러리입니다.
+matplotlib를 이용하면 MATLAB과 유사하게 graph를 그릴 수 있습니다. Excel의 graph로는 뭔가 표현하기 부족하다 느끼시는 분들, 데이터 분석하시는 분들에게 필수적인 라이브러리입니다.
 
 
 matplotlib에서 사용하는 기본 자료형은 numpy를 이용합니다. 아직 numpy가 익숙하지 않으신 분들은 먼저 numpy를 보시기를 바랍니다.
 
 ### 2. 간단한 그래프 그려보기
 
-`matplotlib`와 `numpy`를 임포트해줍니다.
+
+간단하게 사인과 코사인 함수를 그려보도록 하겠습니다. 대략적으로 살펴보고 상세하게 기능을 살펴보도록 하겠습니다.
+
+
+우선 필요한 모듈인 `matplotlib`와 `numpy`를 임포트해줍니다. 앞서 말씀드렸듯이 `matplotlib`의 기본 자료형은 `numpy`이기예 항상 같이 불러줍니다.
+
+
 <!-- import -->
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
@@ -31,8 +37,8 @@ matplotlib에서 사용하는 기본 자료형은 numpy를 이용합니다. 아�
 </div>
 </div>
 </div>
-<br>
-간단하게 사인 함수를 그려보도록 하겠습니다. 일정 간격을 가진 x값을 생성해주고, y값으로 sin함수를 이용하여 계산해줍니다.
+
+이제 사인 함수에 필요한 x값과 y값의 array를 만들어줍니다. 일정 간격을 가진 x값을 생성해주고, y값으로 sin함수를 이용하여 계산해줍니다.
 <!-- x, y values -->
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
@@ -79,9 +85,7 @@ matplotlib에서 사용하는 기본 자료형은 numpy를 이용합니다. 아�
 그래프 참 깔끔하지 않나요?
 
 
-
-
-이번에는 하나의 그래프에 사인 함수와 코사인 함수를 동시에 그려보도록 하겠습니다. 앞에서는 y를 생성해줬는데, 바로 `plot`함수에 넣어 주어도 됩니다.
+이번에는 하나의 그래프에 사인 함수와 코사인 함수를 동시에 그려보도록 하겠습니다. 앞에서는 y를 생성해줬는데, 아래 처럼 바로 `plot`함수에 넣어 주어도 됩니다. 좀 더 코드가 간략해지겠지요?
 <!-- sine and cosine -->
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
@@ -111,8 +115,8 @@ matplotlib에서 사용하는 기본 자료형은 numpy를 이용합니다. 아�
 </div>
 </div>
 </div>
-<br>
-간단한게 그래프를 그려볼 수 있습니다.
+
+두 가지 그래프를 그려봤는데, 특이하게도 그래프의 바탕이 다릅니다. 알아서 적절한 테마로 설정해줍니다. 그러나 때론 그릴때마다 그래프 형태가 바뀌면 곤란하겠지요? 다음에는 그래프의 외관에 대해 다루어 보겠습니다.
 
 ### 3. 그래프 꾸미기
 
