@@ -125,7 +125,6 @@ LABEL FILE의 label을 읽으려면, 8 bytes 이후 부터 unsigned byte(즉 1by
 
 앞서 설명에서 LABEL의 경우 8 bytes 이후에 label 데이터가 있으니, 8 bytes 옵셋하여 읽어줍니다.
 
-### TEST
 
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
@@ -151,8 +150,6 @@ LABEL FILE의 label을 읽으려면, 8 bytes 이후 부터 unsigned byte(즉 1by
 </div>
 </div>
 </div>
-
-### TEST
 
 60,000개의 훈련 데이터의 라벨을 읽어왔습니다. 같은 방법으로 이미지도 읽어보겠습니다.
 
@@ -181,12 +178,13 @@ LABEL FILE의 label을 읽으려면, 8 bytes 이후 부터 unsigned byte(즉 1by
 </div>
 </div>
 </div>
+</div>
 
-### TEST
+### 2. 사이킷런을 이용하는 방법
 
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
 <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">type</span><span class="p">(</span><span class="n">X_train</span><span class="p">)</span>
 </pre></div>
@@ -198,14 +196,14 @@ LABEL FILE의 label을 읽으려면, 8 bytes 이후 부터 unsigned byte(즉 1by
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[2]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[3]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
 <pre>numpy.ndarray</pre>
 </div>
 </div>
 </div>
+</div>
 
-### TEST
 
 이번에는 offset값이 16입니다. MNIST 홈페이지에 있는 파일 구조를 다시 한번 살펴보세요.
 
@@ -216,6 +214,8 @@ LABEL FILE의 label을 읽으려면, 8 bytes 이후 부터 unsigned byte(즉 1by
 
 
 제일 첫 글자를 뽑아서 출력해보겠습니다. 우선 60,000개로 쪼개고,
+
+### 2. 사이킷런을 이용하는 방법
 
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
@@ -268,6 +268,8 @@ jp-needs-light-background
 
 이번에는 앞에서부터 25개의 숫자를 5x5 행렬로 출력해보겠습니다.
 
+### 2. 사이킷런을 이용하는 방법
+
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[8]:</div>
@@ -309,7 +311,7 @@ jp-needs-light-background
 </div>
 
 reshape을 (60000, 784)로 했는데, 아래와 같이 (60000, 28, 28)로 해도 같은 결과를 얻을 수 있습니다.
-
+### 2. 사이킷런을 이용하는 방법
 
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
