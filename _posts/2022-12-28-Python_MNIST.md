@@ -220,7 +220,7 @@ LABEL FILE의 label을 읽으려면, 8 bytes 이후 부터 unsigned byte(즉 1by
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
 <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">X_train_reshape</span> <span class="o">=</span> <span class="n">X_train</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="mi">60000</span><span class="p">,</span> <span class="mi">784</span><span class="p">)</span>
-</pre>></div>
+</pre></div>
 </div>
 </div>
 </div>
