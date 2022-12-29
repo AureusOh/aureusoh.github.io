@@ -66,6 +66,7 @@ t10k-images-idx3-ubyte.gz:   test set images (1648877 bytes)
 t10k-labels-idx1-ubyte.gz:   test set labels (4542 bytes)
 </pre>
 
+
 훈련 데이터는 60,000개, 테스트 데이터는 10,000개이며, 이미지와 라벨이 따로 저장되어있습니다.
 
 
@@ -75,7 +76,7 @@ t10k-labels-idx1-ubyte.gz:   test set labels (4542 bytes)
 MNIST 사이트에 데이터 형식에 대해서도 적혀있습니다.
 
 
-TRAINING SET LABEL FILE (train-labels-idx1-ubyte):
+<pre>TRAINING SET LABEL FILE (train-labels-idx1-ubyte):
 
 [offset] [type]          [value]          [description] 
 0000     32 bit integer  0x00000801(2049) magic number (MSB first) 
@@ -97,8 +98,11 @@ TRAINING SET IMAGE FILE (train-images-idx3-ubyte):
 0017     unsigned byte   ??               pixel 
 ........ 
 xxxx     unsigned byte   ??               pixel
+</pre>
+
 
 LABEL FILE의 label을 읽으려면, 8 bytes 이후 부터 unsigned byte(즉 1byte)만큼씩 끝까지 읽어주면됩니다.
+
 
 그럼 파일을 열어주고,
 
@@ -115,10 +119,13 @@ LABEL FILE의 label을 읽으려면, 8 bytes 이후 부터 unsigned byte(즉 1by
 </div>
 </div>
 
+
 파일을 열기위해서는 `os`모듈의 `open`함수를 이용합니다. `rb`모드로 열어줍니다. `r`은 `str type`, `b`는 `bytes type`입니다.
+
 
 앞서 설명에서 LABEL의 경우 8 bytes 이후에 label 데이터가 있으니, 8 bytes 옵셋하여 읽어줍니다.
 
+### TEST
 
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
@@ -143,7 +150,9 @@ LABEL FILE의 label을 읽으려면, 8 bytes 이후 부터 unsigned byte(즉 1by
 </div>
 </div>
 </div>
+</div>
 
+### TEST
 
 60,000개의 훈련 데이터의 라벨을 읽어왔습니다. 같은 방법으로 이미지도 읽어보겠습니다.
 
