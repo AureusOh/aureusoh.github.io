@@ -88,6 +88,8 @@ LABEL FILE의 label을 읽으려면, 8 bytes 이후 부터 unsigned byte(즉 1by
 
 그럼 파일을 열어주고,
 
+### 1. MNIST 사이트에서 데이터 다운 받기
+
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[1]:</div>
