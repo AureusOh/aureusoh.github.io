@@ -182,6 +182,8 @@ LABEL FILE의 label을 읽으려면, 8 bytes 이후 부터 unsigned byte(즉 1by
 </div>
 </div>
 
+### TEST
+
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
@@ -202,6 +204,8 @@ LABEL FILE의 label을 읽으려면, 8 bytes 이후 부터 unsigned byte(즉 1by
 </div>
 </div>
 </div>
+
+### TEST
 
 이번에는 offset값이 16입니다. MNIST 홈페이지에 있는 파일 구조를 다시 한번 살펴보세요.
 
